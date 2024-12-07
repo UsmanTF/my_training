@@ -5,6 +5,8 @@ while True:
     if my_list[a] == 0:
         a += 1
         continue
-    elif my_list[a] > 0 and a < len(my_list):
+    elif my_list[a] > 0 and a <= len(my_list):
         print(my_list[a])
         a += 1
+    else:
+        break
